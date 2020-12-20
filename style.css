@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500i&display=swap');
+ /*lahna  darte background les parametre dialha besh tji full page */
+*
+{
+	margin: 0px;
+	padding:  0px;
+}
+body 
+{
+	
+	  background: url(alt1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*lahna importite font w les marge derthom egale a 0*/
+
+*{
+	box-sizing : border-box;
+	margin : 0;
+	padding: 0;
+
+}
+/* selectioner font et diff parametre pour list item*/
+li , a ,button
+{
+	font-family: "Montserrat",sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: none;
+}
+/*affichage de chaque element de liste propre*/
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+		background-color: #24252a;
+}
+.logo
+{
+	margin-right: auto;
+	margin-top: auto;
+	cursor: pointer;
+
+	margin-top: -6px;
+
+}
+
+.nav_links
+{
+	list-style : none;
+}
+.nav_links li
+{
+ display: inline-block;
+ padding: 0px 20px;
+}
+.nav_links li a
+ {
+ 	transition: all 0.3s ease 0s;
+ }
+ .nav_links li a:hover
+ {
+color: #0088a9;
+ }
+ button
+ {
+ 	padding :9px 25px;
+ 	background-color: rgba(0,136,169,1);
+ 	border : none;
+ 	border-radius: 2px;
+ 	cursor: pointer;
+ 	transition : all 0.3s ease 0s;
+}
+button:hover
+{
+	background-color: rgba(0,136,169,0.8);
+	border-radius: 4px;
+}
+
+
+/*lahna  darte les parametres taa logo taa site hadek */
+.avatar
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -70px;
+	margin-left: 110px;
+}
+/*lahna rahndir login box transparent yji f waste la page*/
+.login_box
+{
+	width: 320px;
+	height: 380px;
+	background : rgba(0 ,0 ,0 ,0.5);
+	color: #fff;
+	top: 63%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+}
+.inputbasic input
+{
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 6px;
+	padding: 5px;
+	margin-top: 6px;
+	transition: all 0.3s ease;
+	display: block;
+	width: 220px;
+	margin-top: 4%;
+	margin-left: 20%;
+	color: white;
+	
+}
+
+.inputbasic input:focus
+{
+	background-color: lightgrey;
+	color: black;
+	border:1px solid lightgreen;
+
+	
+}
+
+.lg
+{
+	text-align: center;
+	margin-top: 35px;
+}
+.submit
+{
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 6px;
+	padding: 5px;
+	margin-top: 6px;
+	transition: all 0.3s ease;
+	display: block;
+	width: 220px;
+	margin-top: 12%;
+	margin-left: 18%;
+	margin-bottom: 25%;
+	color: white;
+}
+.submit:hover
+{
+	background-color: lightgreen ;
+	color:grey;
+	border-radius: 40px;
+}
+.fpw
+{
+	transition: all 0.3s ease;
+	margin-left:40%;
+}
+.fpw:hover
+{
+	color: lightgreen;
+}
+i
+{
+	margin-top: 10px;
+}
+/*all rights reserved to bmo*W:;/
